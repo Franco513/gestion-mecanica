@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
-
 function App() {
   const [citas, setCitas] = useState([]);
   const [nuevaCita, setNuevaCita] = useState({ nombre: '', modelo: '', servicio: '', fecha: '' });
